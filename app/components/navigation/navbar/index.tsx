@@ -26,27 +26,27 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                     viewBox="0 0 24 24"
                 >
                     <path
-                        fill="#233876"
+                        fill="#000000"
                         d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
                     />
                 </svg>
             </button>
 
-            <ul className="hidden lg:flex items-center justify-center mx-auto gap-x-12 text-sky-900 text-lg font-base uppercase">
+            <ul className="hidden lg:flex items-center justify-center mx-auto gap-x-12 text-zinc-900 text-lg font-base uppercase">
                 <li>
-                    <Link href="/" className={`link ${pathname === '/' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-500`}>About</Link>
+                    <Link href="/" className={`link ${pathname === '/' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-600`}>About</Link>
                 </li>
                 <li>
-                    <Link href="/people" className={`link ${pathname === '/people' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-500`}>People</Link>
+                    <Link href="/people" className={`link ${pathname === '/people' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-600`}>People</Link>
                 </li>
                 <li>
-                    <Link href="/publications" className={`link ${pathname === '/publications' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-500`}>Publications</Link>
+                    <Link href="/publications" className={`link ${pathname === '/publications' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-600`}>Publications</Link>
                 </li>
                 <li>
-                    <Link href="/gallery" className={`link ${pathname === '/gallery' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-500`}>Gallery</Link>
+                    <Link href="/gallery" className={`link ${pathname === '/gallery' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-600`}>Gallery</Link>
                 </li>
                 <li>
-                    <Link href="/contact" className={`link ${pathname === '/contact' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-500`}>Get in touch</Link>
+                    <Link href="/contact" className={`link ${pathname === '/contact' ? 'active' : ''} [&.active]:underline underline-offset-4 hover:text-emerald-600`}>Get in touch</Link>
                 </li>
             </ul>
         </div>
