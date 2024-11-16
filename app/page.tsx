@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
     return (<>
-        <div className="text-black font-[family-name:var(--font-raleway)] min:h-[95vh] flex flex-col md:justify-center items-center text-center md:pt-16 bg-[#e8efed]">
+        <div className="text-black font-[family-name:var(--font-raleway)] min:h-[95vh] flex flex-col md:justify-center items-center text-center md:pt-16 bg-[#f4f7f6]">
             <h1 className="text-xl sm:text-4xl pb-4 md:pb-12 px-2 font-bold">Welcome to the Currie Lab!</h1>
             <p className="sm:text-xl px-2 md:px-44">
                 We seek to understand the mechanisms that govern genome organization, epigenetic gene regulation, and genome stability in health and disease. We combine structural biology, biochemistry, and cellular model systems.
