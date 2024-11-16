@@ -20,7 +20,7 @@ const Footer = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/" className="text-2xl font-medium text-normal text-emerald-900">THE CURRIE LAB</Link>
+                        <Link href="/" className="text-2xl md:text-[2.16rem] font-medium text-normal text-emerald-900">CURRIE LAB</Link>
                     </li>
                 </ul>
                 
