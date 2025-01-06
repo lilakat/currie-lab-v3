@@ -9,7 +9,7 @@ export default function Publications() {
                 <h2 className="border-l-8 border-emerald-700 border-solid pl-4 text-3xl font-bold uppercase">Publications</h2>
             </div>
 
-            <div className="flex text-xl pb-4 pl-14">
+            <div className="flex text-xl pb-4 md:pl-14">
                 <h3>For a complete list of publications, see&nbsp;</h3>
                 <Link className="text-emerald-800 hover:text-emerald-500" href="https://pubmed.ncbi.nlm.nih.gov/?term=mark+a+currie&sort=pubdate">PubMed.</Link>
             </div>
@@ -19,7 +19,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">Selected Publications</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4">
                 <h4 className="font-opensans h5 font-normal pb-1">
@@ -41,7 +41,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2024</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
                 <div className="t-entry pubmed py-4">
                     <h4 className="font-opensans h5 font-normal pb-1">
                         <Link className="text-xl text-emerald-800 hover:text-emerald-500" href="https://doi.org/10.1038/s41598-024-70652-8">Mint/X11 PDZ domains from non-bilaterian animals recognize and bind CaV2 calcium channel C-termini in vitro</Link>
@@ -72,7 +72,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2023</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4"><h4 className="font-opensans h5 font-normal pb-1">
                 <Link className="text-xl text-emerald-800 hover:text-emerald-500" href="https://doi.org/10.1016/B978-0-12-823376-4.00006-9">The BAH domain: A versatile histone modification reader</Link>
@@ -88,7 +88,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2022</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4">
                 <h4 className="font-opensans h5 font-normal pb-1">
@@ -106,7 +106,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2021</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4">
                 <h4 className="font-opensans h5 font-normal pb-1">
@@ -118,7 +118,7 @@ export default function Publications() {
 
 
             <h3 className="h2 font-bold pt-4 text-2xl">2018</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4">
                 <h4 className="font-opensans h5 font-normal pb-1">
@@ -129,7 +129,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2017</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4">
                 <h4 className="font-opensans h5 font-normal pb-1">
@@ -146,7 +146,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2016</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4"><h4 className="font-opensans h5 font-normal pb-1">
                 <Link className="text-xl text-emerald-800 hover:text-emerald-500" href="https://doi.org/10.7554/eLife.17556">Heterochromatin assembly by interrupted Sir3 bridges across neighboring nucleosomes</Link>
@@ -156,7 +156,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2013</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4"><h4 className="font-opensans h5 font-normal pb-1">
                 <Link className="text-xl text-emerald-800 hover:text-emerald-500" href="https://doi.org/10.1074/jbc.M112.408757">Small Angle X-ray Scattering Analysis ofClostridium thermocellumCellulosome N-terminal Complexes Reveals a Highly Dynamic Structure</Link>
@@ -179,7 +179,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2012</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4"><h4 className="font-opensans h5 font-normal pb-1">
                 <Link className="text-xl text-emerald-800 hover:text-emerald-500" href="https://doi.org/10.1074/jbc.M112.343897">Scaffoldin Conformation and Dynamics Revealed by a Ternary Complex from theClostridium thermocellumCellulosome</Link>
@@ -189,7 +189,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2010</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4"><h4 className="font-opensans h5 font-normal pb-1">
                 <Link className="text-xl text-emerald-800 hover:text-emerald-500" href="https://doi.org/10.1016/j.jmb.2010.01.015">Insights into Higher-Order Organization of the Cellulosome Revealed by a Dissect-and-Build Approach: Crystal Structure of Interacting Clostridium thermocellum Multimodular Components</Link>
@@ -205,7 +205,7 @@ export default function Publications() {
             </div>
 
             <h3 className="h2 font-bold pt-4 text-2xl">2009</h3>
-            <div className="pl-14">
+            <div className="md:pl-14">
 
             <div className="t-entry pubmed py-4"><h4 className="font-opensans h5 font-normal pb-1">
                 <Link className="text-xl text-emerald-800 hover:text-emerald-500" href="https://doi.org/10.1016/S1876-1623(08)76001-2">Preparation and Characterization of Bacterial Protein Complexes for Structural Analysis</Link>
