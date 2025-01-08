@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <div className="text-black font-[family-name:var(--font-raleway)]">
-                <div className="relative w-full h-screen flex justify-center items-center overflow-hidden">
+                <div className="relative w-full h-[calc(100vh-56px)] flex justify-center items-center overflow-hidden">
                     <Image
                         src="/images/scene2.png"
                         alt=""
@@ -59,7 +59,7 @@ export default function Home() {
 
                 </div>
 
-                <div id="content" className="flex items-center justify-center h-[60vh]">
+                <div id="content" className="flex items-center justify-center sm:h-[60vh] h-screen">
                     <div className="flex flex-col justify-center text-left px-4 md:w-[50vw]" >
                         <div className="py-4">
                             <div className=" border-l-8 border-emerald-700 border-solid pl-4">
