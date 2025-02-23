@@ -58,7 +58,7 @@ export default function People() {
                     <div className="w-full flex flex-col lg:flex-row items-stretch gap-12">
                         <div className="relative flex-shrink-0 flex items-center justify-center self-center">
                             <Image
-                                src="/images/Currie resized.jpg.jfif"
+                                src="/images/Currie resized.jpg"
                                 alt="Mark Currie"
                                 width="300"
                                 height="300"
