@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 //import { fetchGoogleSheetData } from "../api/googleSheets";
 
-const sheetId = "1F2DlbaKIcr7uDY7uCmvD9VxTvGR7ukT0SbuE6gZUJzc";
-const range = "all_publications!A2:F";
+//const sheetId = "1F2DlbaKIcr7uDY7uCmvD9VxTvGR7ukT0SbuE6gZUJzc";
+//const range = "all_publications!A2:F";
 
 export default function Publications() {
 

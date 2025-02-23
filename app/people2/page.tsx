@@ -76,10 +76,10 @@ const ChevronUpSVG = (
 
 export default function People() {
 
-    const [expandedIndex, setExpandedIndex] = useState(null);
+    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
     const [mainExpanded, setMainExpanded] = useState<boolean>(false);
 
-    const toggleDescription = (index: any) => {
+    const toggleDescription = (index: number) => {
         setExpandedIndex(expandedIndex === index ? null : index);
     };
 
