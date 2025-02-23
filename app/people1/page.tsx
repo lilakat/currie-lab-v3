@@ -42,8 +42,8 @@ const team = [
 ];
 
 const secondaryColour = "text-slate-700";
-const textColour = "text-black";
-const tealBar = "border-emerald-700";
+//const textColour = "text-black";
+//const tealBar = "border-emerald-700";
 const tealText = "text-emerald-700";
 
 export default function People() {
