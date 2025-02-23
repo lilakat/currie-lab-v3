@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
+//import { fetchGoogleSheetData } from "../api/googleSheets";
+
+const sheetId = "1F2DlbaKIcr7uDY7uCmvD9VxTvGR7ukT0SbuE6gZUJzc";
+const range = "all_publications!A2:F";
 
 export default function Publications() {
+
     return (<>
         <div className="flex justify-center px-2">
             <div className="py-12 md:w-3/5 2xl:w-1/2 text-black font-[family-name:var(--font-dmSans)]">
